@@ -1,0 +1,27 @@
+{
+  "name": "react-node-application",
+  "version": "1.0.0",
+  "description": "A React Frontend connected to a Node Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkReillyGMIT/React-Node-Application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarkReillyGMIT/React-Node-Application/issues"
+  },
+  "homepage": "https://github.com/MarkReillyGMIT/React-Node-Application#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "14.15.0"
+  }
+}
